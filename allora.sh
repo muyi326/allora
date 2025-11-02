@@ -607,6 +607,8 @@ show_deployment_info() {
     echo "   1. 监控节点日志确保正常运行"
     echo "   2. 检查节点是否成功注册到网络"
     echo "   3. 验证推理服务是否正常工作"
+    echo "💾 钱包信息已保存到: $(pwd)/$WALLET_INFO_FILE"
+    echo "🔐 请务必备份此文件，或手动记录助记词！"
     echo ""
 }
 
